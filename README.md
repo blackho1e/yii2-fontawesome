@@ -24,7 +24,7 @@ Assets
 To include Font Awesome assets, you should register it in view :
 
 ```php
-\ blackho1e\fontawesome\FontAwesomeAsset::register($this);
+\blackho1e\fontawesome\FontAwesomeAsset::register($this);
 ```
 
 Or as dependency in your app asset bundle :
