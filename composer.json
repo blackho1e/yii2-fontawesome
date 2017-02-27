@@ -1,0 +1,30 @@
+{
+    "name": "blackho1e/yii2-fontawesome",
+    "description": "fontawesome-asset for Yii2",
+    "keywords": ["yii2", "fontawesome"],
+    "homepage": "https://github.com/blackho1e/yii2-fontawesome",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Minjoo Kang",
+            "email": "blackdole@naver.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.*",
+        "FortAwesome/Font-Awesome": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "blackho1e\\fontawesome\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
